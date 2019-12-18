@@ -1,0 +1,4 @@
+from scapy.all import *  # This is for packet manipulation, '*' imports all the names
+
+packets_quantity=30
+pcap= sniff(count=packets_quantity) #sniff command from scapy
